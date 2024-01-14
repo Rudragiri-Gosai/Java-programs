@@ -9,6 +9,7 @@ public class ch2pro4 {
         int v = get.nextInt();
         int u = get.nextInt();
         float formula = (float) (v ^ 2 - u ^ 2) / 2;
+        get.close();
         System.out.println("The after operation with ((v^2-u^2)/2) formula is ::  " + formula);
     }
 }

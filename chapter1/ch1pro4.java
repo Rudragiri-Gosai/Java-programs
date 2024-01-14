@@ -6,7 +6,8 @@ public class ch1pro4 {
         Scanner get = new Scanner(System.in);
         System.out.println("Enter KM : ");
          double KM= get.nextDouble();
-         double MILE=KM*0.62137;
+         double MILE = KM * 0.62137;
+        get.close();
         System.out.println("Given KM in MILE is : "+MILE);
     }
 }
